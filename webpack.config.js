@@ -92,6 +92,12 @@ module.exports = (env) => {
         plugins,
         devServer: {
             historyApiFallback: true
+        },
+        node: {
+            console: true,
+            fs: 'empty',
+            net: 'empty',
+            tls: 'empty'
         }
     };
 };
