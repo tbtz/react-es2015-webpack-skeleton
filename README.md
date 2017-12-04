@@ -5,7 +5,6 @@ Instructions:
 ------
 1. Change Title in HTML Head
 2. Change Projectname in package.json
-3. update origin remote from repo
 
 build:
 ------
